@@ -1,5 +1,5 @@
 {
-  "name": "sample-a",
+  "name": "@yoyo-kikuchi/sample-a",
   "version": "1.0.0",
   "description": "sample a package",
   "main": "src/index.js",
