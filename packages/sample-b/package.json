@@ -1,0 +1,14 @@
+{
+  "name": "sample-b",
+  "version": "1.0.0",
+  "description": "sample b package",
+  "main": "src/index.js",
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoyo-kikuchi/monorepo-package-sample.git",
+    "directory": "packages/sample-b"
+  }
+}

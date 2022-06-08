@@ -1,0 +1,31 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.166.1/containers/typescript-node
+{
+  "name": "monorepo-package-sample",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "16-bullseye"
+    }
+  },
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "runArgs": [],
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "shardulm94.trailing-spaces",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "Vue.volar",
+    "Gruntfuggly.todo-tree",
+    "firsttris.vscode-jest-runner"
+  ],
+  "remoteUser": "node"
+}
